@@ -1,0 +1,9 @@
+.Card {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: all .3s cubic-bezier(1, 0, 0, 1);
+}
+
+.Card:hover {
+    border: 2px solid #f53838;
+}

@@ -1,0 +1,73 @@
+.Reviews {
+    grid-column: 2/span 1;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+.Reviews header {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.Reviews header h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.Reviews header p {
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.active {
+    background: #f53838;
+    color: #fff;
+}
+
+.Reviews .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: max-content;
+    padding: 0 3rem;
+    align-items: center;
+}
+
+.Reviews .Slider {
+    display: flex;
+}
+
+.Reviews .Slider .SliderMove {
+    margin-right: .2rem;
+}
+
+.Reviews .SliderControls {
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    width: 7rem
+}
+
+.Reviews .SliderControls .btn {
+    padding: .3rem .4rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Reviews .SliderControls .btn:hover {
+    background: #f53838;
+    transform: scale(1.03) translateY(-.2rem);
+}
+
+.Reviews .SliderControls .btn:hover svg path {
+    fill: #fff;
+}
+
+.Reviews .SliderControls .btn .img {
+    vertical-align: middle;
+}

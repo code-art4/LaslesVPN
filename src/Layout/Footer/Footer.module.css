@@ -1,0 +1,41 @@
+.Footer {
+    background: #F8F8F8;
+    grid-column: 1/ -1;
+    padding: 3rem;
+}
+
+.Footer ul,
+.Footer ol {
+    list-style: none;
+}
+
+.Footer.row,
+.Footer .row {
+    display: flex;
+}
+
+.Footer.row .col:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+.Footer.row {
+    justify-content: space-between;
+}
+
+.Footer.row .logo {
+    margin-bottom: 1rem;
+}
+
+.Footer.row p {
+    width: 65%;
+    line-height: 1.6;
+}
+
+.Footer .copyright {
+    color: #AFB5C0;
+    font-size: .9rem;
+}

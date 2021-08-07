@@ -1,0 +1,46 @@
+.HeaderNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+    margin-top: 2rem;
+}
+
+.HeaderNavigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.HeaderNavigation ul li {
+    display: inline-block;
+    margin-left: 3rem;
+    font-weight: 400;
+}
+
+.HeaderNavigation .col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderNavigation .col .btn {
+    padding: .5rem 2rem;
+    border: transparent;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.HeaderNavigation .col .btn:hover {
+    transform: scale(1) translateY(0);
+}
+
+.HeaderNavigation .col .btn.active {
+    border: 1px solid #F58383;
+    box-shadow: 1px 1px .5px .6px #f5383828;
+}
+
+.HeaderNavigation .col .btn:not(:last-of-type) {
+    margin-right: 1rem;
+}

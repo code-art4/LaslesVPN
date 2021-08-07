@@ -1,0 +1,15 @@
+.FooterLinks {
+    width: 13rem;
+    padding: 2rem;
+}
+
+.FooterLinks h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.FooterLinks ul li {
+    margin-top: .7rem;
+    color: #4F5665;
+}

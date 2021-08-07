@@ -1,0 +1,42 @@
+.Network {
+    grid-column: 2/span 1;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-row-gap: 3rem;
+}
+
+.Network header {
+    grid-column: 3/ span 3;
+    grid-row: 1/span 1;
+    justify-self: center;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+.Network header h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.Network header p {
+    align-self: center;
+    font-weight: 400;
+    color: #4F5665;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.Network figure {
+    grid-column: 1/-1;
+    grid-row: 2/ span 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Network figure .image {
+    width: 100%;
+    height: 100%;
+}
