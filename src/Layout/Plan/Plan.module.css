@@ -1,84 +1,106 @@
-.Plan {
-    grid-column: 2/span 1;
-}
-
-.Plan header {
-    text-align: center;
-    margin-bottom: 3rem
-}
-
-.Plan header h2 {
-    font-size: 2rem;
-    line-height: 3.1;
-    font-weight: 600;
-}
-
-.Plan header p {
-    width: 50%;
-    margin: auto;
-    color: #4F5665;
-    line-height: 1.6;
-}
-
-.Plan main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.Plan main .card {
-    padding: .8rem 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffffff21;
-}
-
-.Plan main .card .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-.Plan main .card .content h5 {
-    font-size: 1.4rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-}
-
-.Plan main .card .content ul {
-    height: 15rem;
-    list-style: none;
-}
-
-.Plan main .card .content ul li {
-    color: #4F5665;
-    margin-top: .6rem;
-    display: flex;
-    align-items: center;
-}
-
-.Plan main .card .content ul li span {
-    margin-left: 1.5rem;
-}
-
-.Plan main .plan-type {
-    margin-top: 1rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    letter-spacing: 1px;
-    font-weight: 300;
-    font-size: 1.4rem;
-}
-
-.Plan main .plan-type strong {
-    font-weight: 400;
-}
-
-.planBtn {
-    width: 11rem;
-    padding: .5rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
+        .Plan {
+            grid-column: 2/span 1;
+        }
+        
+        .Plan header {
+            text-align: center;
+            margin-bottom: 3rem;
+            width: 50%;
+            margin: auto;
+        }
+        
+        .Plan header h2 {
+            font-size: 2rem;
+            line-height: 3.1;
+            font-weight: 600;
+        }
+        
+        .Plan header p {
+            margin-bottom: 2rem;
+            color: #4F5665;
+            line-height: 1.6;
+        }
+        
+        .Plan main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .Plan main .card {
+            padding: .8rem 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff21;
+        }
+        
+        .Plan main .card .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+        }
+        
+        .Plan main .card .content h5 {
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+        
+        .Plan main .card .content ul {
+            height: 15rem;
+            list-style: none;
+        }
+        
+        .Plan main .card .content ul li {
+            color: #4F5665;
+            margin-top: .6rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .Plan main .card .content ul li span {
+            margin-left: 1.5rem;
+        }
+        
+        .Plan main .plan-type {
+            margin-top: 1rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            letter-spacing: 1px;
+            font-weight: 300;
+            font-size: 1.4rem;
+        }
+        
+        .Plan main .plan-type strong {
+            font-weight: 400;
+        }
+        
+        .planBtn {
+            width: 11rem;
+            padding: .5rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        
+        @media screen and (max-width: 71.875rem) {
+            .Plan main {
+                justify-content: center;
+            }
+            .Plan main .card:first-of-type {
+                margin-right: auto;
+            }
+            .Plan main .card {
+                margin-bottom: 3rem;
+            }
+        }
+        
+        @media screen and (max-width: 45.667rem) {
+            .Plan main .card:first-of-type {
+                margin-right: 0;
+            }
+            .Plan header {
+                width: 70%;
+            }
+        }

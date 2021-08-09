@@ -20,7 +20,7 @@ const images = [{name: "Netflix",image: NetflixImage}, {name: "Reddit",image: Re
 
 const mappedImages = images.map((image) => {
     return <figure key={image.name} className={classes.Sponsors}>
-        <Image image={image.image} description={image.name}/>
+        <Image image={image.image} description={image.name} className={classes.Image}/>
     </figure>
 })
 

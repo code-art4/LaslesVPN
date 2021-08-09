@@ -39,3 +39,35 @@
     color: #AFB5C0;
     font-size: .9rem;
 }
+
+@media screen and (max-width: 71.875rem) {
+    .Footer.row {
+        flex-direction: column-reverse;
+    }
+    .Footer.row .col {
+        margin: auto;
+        width: 80%;
+    }
+    .Footer.row .col:last-of-type {
+        margin-bottom: 2rem;
+    }
+    .Footer.row p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 45.667rem) {
+    .Footer.row .col {
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 26.5625rem) {
+    .Footer {
+        padding: 2rem 1rem;
+    }
+    .vertical {
+        flex-direction: column;
+    }
+}

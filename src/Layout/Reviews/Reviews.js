@@ -24,7 +24,7 @@ const Reviews = () => {
           </p>
         </header>
         <ReviewSlider />
-        <div className={classes.row}>
+        <div className={`${classes.row} ${classes.SliderBtn}`}>
           <div className={`${classes.col} ${classes.Slider}`}>
             <Image image={SliderMove} className={classes.SliderMove} />
             <Image image={SliderDots} className={classes.SliderMove} />

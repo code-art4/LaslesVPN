@@ -5,3 +5,10 @@
     background-color: #fff;
     color: #0B132A;
 }
+
+@media screen and (max-width: 45.667rem) {
+    .App {
+        grid-row-gap: 3rem;
+        overflow: hidden;
+    }
+}

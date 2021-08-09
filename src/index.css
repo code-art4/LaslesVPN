@@ -14,6 +14,18 @@ body {
     }
 }
 
+@media screen and (max-width: 56.25rem) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 26.5625rem) {
+    html {
+        font-size: 85%;
+    }
+}
+
 ::selection {
     color: #F6F6F6;
     background-color: #0B132A;

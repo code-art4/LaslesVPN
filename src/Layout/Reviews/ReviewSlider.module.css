@@ -59,3 +59,30 @@
     margin-top: 1rem;
     line-height: 1.7;
 }
+
+@media screen and (max-width: 71.875rem) {
+    .ReviewSlider .cards {
+        flex-direction: column;
+        margin: auto;
+    }
+    .ReviewSlider .cards .card {
+        margin: auto;
+        width: 70%;
+    }
+    .ReviewSlider .cards .card:not(:last-of-type) {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 45.667rem) {
+    .ReviewSlider .cards .card {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:26.5625rem) {
+    .ReviewSlider .cards .card .row .collg p {
+        margin-top: .3rem;
+    }
+}

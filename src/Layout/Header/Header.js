@@ -31,36 +31,45 @@ const Header = () => {
             </p>
             <Button className={classes.btn}>Get Started</Button>
           </div>
-          <div className="col">
-            <Image
-              image={HeaderIllustration}
-              description="WORK WITH LASLESVPN"
-            />
+          <div className={classes.col}>
+            <figure>
+              <Image
+                image={HeaderIllustration}
+                description="WORK WITH LASLESVPN"
+                className={classes.Image}
+              />
+            </figure>
           </div>
         </div>
 
         <div className={classes.otherinfo}>
           <div className={classes.row}>
-            <Image image={UserIcon} className={classes.colICon}/>
+            <figure>
+              <Image image={UserIcon} className={classes.colIcon} />
+            </figure>
             <span className={classes.headerText}>
-                <h5>90+ </h5>
-                <p>Users</p>
+              <h5>90+ </h5>
+              <p>Users</p>
             </span>
           </div>
 
           <div className={classes.row}>
-            <Image image={UserLocation} />
+            <figure>
+              <Image image={UserLocation} className={classes.colIcon} />
+            </figure>
             <span className={classes.headerText}>
-                <h5>30+ </h5>
-                <p>Locations</p>
+              <h5>30+ </h5>
+              <p>Locations</p>
             </span>
           </div>
 
           <div className={classes.row}>
-            <Image image={UserFile} />
+            <figure>
+              <Image image={UserFile} className={classes.colIcon}/>
+            </figure>
             <span className={classes.headerText}>
-                <h5>50+</h5>
-                <p>Servers</p>
+              <h5>50+</h5>
+              <p>Servers</p>
             </span>
           </div>
         </div>

@@ -1,7 +1,7 @@
 .Reviews {
     grid-column: 2/span 1;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, max-content);
     grid-gap: 3rem;
 }
 
@@ -70,4 +70,40 @@
 
 .Reviews .SliderControls .btn .img {
     vertical-align: middle;
+}
+
+@media screen and (max-width: 71.875rem) {
+    .Reviews {
+        grid-column: 1/ -1;
+    }
+    .Reviews .SliderBtn {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 45.667rem) {
+    .Reviews header {
+        width: 70%;
+    }
+    .Reviews .SliderBtn {
+        width: 90%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:26.5625rem) {
+    .Reviews .SliderControls .btn {
+        padding: 0;
+    }
+    .Reviews .SliderControls .btn svg {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    .Reviews .SliderMove {
+        width: 3rem;
+    }
+    .Reviews .SliderMove:not(:first-of-type) {
+        width: 1rem;
+    }
 }

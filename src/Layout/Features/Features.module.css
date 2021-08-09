@@ -32,14 +32,53 @@
 
 .Features.row .col:last-child ul {
     grid-column: 1/ -1;
+    margin-top: 1rem;
 }
 
 .Features.row .col:last-child ul li {
     display: flex;
     align-items: center;
-    margin-top: 1.5rem;
+}
+
+.Features.row .col:last-child ul li:not(:last-of-type) {
+    margin-bottom: 1.5rem;
 }
 
 .Features.row .col:last-child ul li span {
     margin-left: 1.5rem;
+}
+
+.Features figure .Image {
+    width: 100%;
+}
+
+@media screen and (max-width: 56.25rem) {
+    .Features.row {
+        flex-direction: column;
+    }
+    .Features.row .col {
+        width: 90%;
+    }
+    .Features.row .col:last-child {
+        height: max-content;
+        grid-row-gap: 1rem;
+    }
+    .Features.row .col:first-child {
+        height: 50%;
+        width: 90%;
+    }
+    .Features.row .col:first-child .Image {
+        height: 20rem;
+        margin-top: auto;
+    }
+}
+
+@media screen and (max-width: 26.5625rem) {
+    .Features.row .col:last-child {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+    .Features.row .col:last-child h2 {
+        grid-column: 1/-1;
+    }
 }

@@ -3,7 +3,7 @@
     grid-column: 2/span 1;
     width: 80%;
     margin: auto;
-    transform: translateY(-12rem);
+    transform: translateY(-2rem);
     box-shadow: 2px 2px 5px 1px #eee, -2px -2px 5px 2px #eee;
     padding: 4rem 5rem;
 }
@@ -38,4 +38,40 @@
     padding: 1rem 3rem;
     background-color: #F53838;
     color: #fff;
+}
+
+@media screen and (max-width: 71.875rem) {
+    .Subscribe {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 56.25rem) {
+    .Subscribe {
+        width: 100%;
+        padding: 4rem 3rem;
+    }
+}
+
+@media screen and (max-width: 45.667rem) {
+    .Subscribe {
+        transform: translateY(0);
+        flex-direction: column;
+    }
+    .Subscribe.row .col:first-of-type {
+        width: 100%;
+    }
+    .Subscribe.row .col:last-of-type {
+        margin-top: 2rem;
+        text-align: start;
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 26.5625rem) {
+    .Subscribe {
+        box-shadow: none;
+        padding: 1rem;
+    }
 }

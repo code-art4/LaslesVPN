@@ -12,3 +12,15 @@
     display: flex;
     justify-content: center;
 }
+
+.NetworkSponsors.row figure .Image {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 26.5625rem) {
+    .NetworkSponsors.row figure {
+        width: 4rem;
+        height: 4rem;
+    }
+}
