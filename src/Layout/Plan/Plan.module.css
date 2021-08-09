@@ -11,7 +11,7 @@
         
         .Plan header h2 {
             font-size: 2rem;
-            line-height: 3.1;
+            line-height: 1.5;
             font-weight: 600;
         }
         
@@ -19,6 +19,7 @@
             margin-bottom: 2rem;
             color: #4F5665;
             line-height: 1.6;
+            margin-top: 1rem;
         }
         
         .Plan main {
