@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.bda4a9f6.chunk.css",
-    "main.js": "/static/js/main.7b39cc79.chunk.js",
-    "main.js.map": "/static/js/main.7b39cc79.chunk.js.map",
+    "main.css": "/static/css/main.8150de39.chunk.css",
+    "main.js": "/static/js/main.fcab1c7b.chunk.js",
+    "main.js.map": "/static/js/main.fcab1c7b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.837b4a04.js",
     "runtime-main.js.map": "/static/js/runtime-main.837b4a04.js.map",
     "static/js/2.f48d110b.chunk.js": "/static/js/2.f48d110b.chunk.js",
     "static/js/2.f48d110b.chunk.js.map": "/static/js/2.f48d110b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.bda4a9f6.chunk.css.map": "/static/css/main.bda4a9f6.chunk.css.map",
+    "static/css/main.8150de39.chunk.css.map": "/static/css/main.8150de39.chunk.css.map",
     "static/js/2.f48d110b.chunk.js.LICENSE.txt": "/static/js/2.f48d110b.chunk.js.LICENSE.txt",
     "static/media/Amazon.844bee17.svg": "/static/media/Amazon.844bee17.svg",
     "static/media/Discord.d3f2db43.svg": "/static/media/Discord.d3f2db43.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.837b4a04.js",
     "static/js/2.f48d110b.chunk.js",
-    "static/css/main.bda4a9f6.chunk.css",
-    "static/js/main.7b39cc79.chunk.js"
+    "static/css/main.8150de39.chunk.css",
+    "static/js/main.fcab1c7b.chunk.js"
   ]
 }
